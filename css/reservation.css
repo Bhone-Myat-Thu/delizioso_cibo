@@ -1,0 +1,107 @@
+.reservation{
+    
+    background-color:rgba(255, 153, 0,.1);
+    font-family: var(--font);
+}
+
+.reservation-heading > h1{
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 150px;
+    color: var(--color-blue);
+}
+
+.reservation-heading > h2 {
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    font-family: var(--font);
+    font-weight: 400;
+    color: var(--color-blue);
+    opacity: 0.7;
+}
+
+.date-time{
+    display: flex;
+    justify-content: center;
+}
+
+.reservation-form{
+    padding: 80px;
+    
+}
+
+[class*="reservation-form-row-"] > div > label{
+    display: block;
+    padding-bottom: 5px;
+    padding-left: 1.99x;
+}
+
+[class*="reservation-form-row-"] > div  .name,
+[class*="reservation-form-row-"] > div  .email,
+[class*="reservation-form-row-"] > div  .guest,
+[class*="reservation-form-row-"] > div  .phone{
+    font-family: var(--font);
+    width: 100%;
+    padding: 10px 9px 10px 8px;
+    border: none;
+    background-color: rgba(255, 226, 183, 0.6);
+    color: var(--color-blue);
+    font-weight: 500;
+
+}
+
+
+[class*="reservation-form-row-"] > div .time,
+[class*="reservation-form-row-"] > div .date{
+
+    font-family: var(--font);
+    width: 100%;
+    padding: 10px 9px 10px 40px;
+    border: none;
+    background-color: rgba(255, 226, 183, 0.6);
+    color: var(--color-blue);
+
+}
+
+[class*="reservation-form-row-"] > div input::placeholder{
+    opacity: 0.7;
+    width: 100%;
+}
+
+.reservation-form > button{
+    display: block;
+    margin: 20px auto;
+    color: var(--color-blue);
+    background-color: var(--color-orange);
+    border: none;
+    outline: none;
+    padding: 8px 30px;
+    font-family: var(--font);
+}
+
+.reservation-form > button:hover{
+    cursor: pointer;
+    color: var(--color-orange);
+    background-color: var(--color-blue);
+}
+
+
+.reservation-call{
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.reservation-call p {
+    margin: 0;
+}
+
+.reservation-call a{
+    text-decoration: none;
+    color: var(--color-blue);
+    font-weight: 500;
+}
+

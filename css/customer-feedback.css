@@ -1,0 +1,94 @@
+@import url(font.css);
+
+.gallery-feedback{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.customer-feedback{
+    background-color:rgba(255, 153, 0,.1); 
+}
+
+.customer-feedback h1{
+    font-family: var(--font);
+    color: var(--color-blue);
+    text-align: center;
+    padding-bottom: 80px;
+    margin: 0;
+
+}
+
+
+.customer-feedback-review{
+    position: relative;
+}
+
+.img-row-1 img, 
+.img-row-2 img,
+.img-row-3 img{
+    padding: 7px;
+}
+
+.img-row-1, .img-row-2, .img-row-3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.feedback{
+    padding:25px;
+}
+
+.feedback img{
+    border-radius: 100%;
+    width: 50px;
+}
+
+.feedback-row-1{
+    display: flex;
+}
+
+
+.feedback-name > p,
+.feedback-name > h4{
+
+    width: fit-content;
+    margin: 0;
+}
+
+.feedback-name > p{
+    color: var(--color-orange);
+}
+
+[class*="feedback-row-1-1-"],
+[class*="feedback-row-1-2-"]{
+    font-family: var(--font);
+    display: flex;
+    column-gap: 15px;
+}
+
+.feedback-content{
+    padding: 5px 30px 20px 0px;
+}
+
+.feedback-name > p,
+.feedback-name > h4,
+.feedback-content > p{
+    font-family: var(--font);
+}
+
+
+
+@media only screen and (min-width:998px){
+    .gallery-feedback{
+        padding:10px 100px;
+    }
+}

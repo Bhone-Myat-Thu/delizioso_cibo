@@ -1,0 +1,84 @@
+@import url(css/font.css);
+
+.popular-dishes-div{
+    padding-top: 20px;
+}
+
+.div-0{
+    box-shadow: 0 0 13px rgb(0 0 0 / 30%);
+    border-radius: 20px;
+
+    
+}
+.div-1{
+    position: absolute;
+    display: flex   ;
+    flex-direction: row;
+
+
+}
+.div-2{
+    position: relative;
+    background-color: rgba(0,0,0,0.5);
+    width: 260px;
+    height: 190px;
+    border-radius: 20px 20px 0 0;
+}
+
+.best-content{
+    position: absolute;
+    background-color: var(--color-black);
+    width: fit-content;
+    border-radius: 9px;
+    padding: 3px 10px;
+    color: var(--color-orange);
+    font-size: .79rem;
+    right: 20px;
+    
+}
+
+.dishes-img{
+    border-radius: 20px 20px 0 0;
+}
+
+.dishes-btn{
+    outline: none;
+    font-size: .8rem;
+    font-weight: 500;
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.checked {
+    color: orange;
+}
+
+
+.flex-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.pricing{
+    color: red;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.dishes-content{
+    padding: 0 20px 20px;
+}
+
+.dishes-content > p ,
+.dishes-content,
+.dishes-content > button {
+    font-family: var(--font);
+}

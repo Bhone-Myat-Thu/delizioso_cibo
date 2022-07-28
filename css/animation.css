@@ -1,0 +1,5 @@
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
